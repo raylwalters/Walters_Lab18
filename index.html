@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Detroit Feed</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body ng-app="detroitApp">
+<div class="container">
+	<div class="row">
+		<h1>Title</h1>
+
+		<div class="twelve columns">
+			
+		</div>
+	</div>
+	<div ng-controller="catCtrl" ng-repeat="cat in cats">
+	<img ng-src="{{kitty}}" alt="nope">
+	
+
+	</div>
+
+	
+		
+	</div>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/catctrl.js"></script>
+	<script src="js/dogctrl.js"></script>
+</body>
+</html>
